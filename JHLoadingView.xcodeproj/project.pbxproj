@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0829C88D1DD55CE1008A181A /* JHBambooDragonflyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0829C88C1DD55CE1008A181A /* JHBambooDragonflyView.m */; };
+		0858D1D91DE523FD008042AA /* JHCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0858D1D81DE523FD008042AA /* JHCircleView.m */; };
+		086449231DE42A5E00427E0E /* JHHourglassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086449221DE42A5E00427E0E /* JHHourglassView.m */; };
+		087170C61DD040CB0045F4FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 087170C51DD040CB0045F4FE /* main.m */; };
+		087170C91DD040CB0045F4FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 087170C81DD040CB0045F4FE /* AppDelegate.m */; };
+		087170CC1DD040CB0045F4FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087170CB1DD040CB0045F4FE /* ViewController.m */; };
+		087170CF1DD040CB0045F4FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087170CD1DD040CB0045F4FE /* Main.storyboard */; };
+		087170D11DD040CC0045F4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087170D01DD040CC0045F4FE /* Assets.xcassets */; };
+		087170D41DD040CC0045F4FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087170D21DD040CC0045F4FE /* LaunchScreen.storyboard */; };
+		087170DF1DD040CC0045F4FE /* JHLoadingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 087170DE1DD040CC0045F4FE /* JHLoadingViewTests.m */; };
+		087170F51DD0415A0045F4FE /* JHWatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 087170F11DD0415A0045F4FE /* JHWatchView.m */; };
+		087170FF1DD090D10045F4FE /* UIView+JHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 087170FE1DD090D10045F4FE /* UIView+JHCategory.m */; };
+		088861091DD4301D0040AF1E /* JHDoubleCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 088861081DD4301D0040AF1E /* JHDoubleCircleView.m */; };
+		0888610C1DD442740040AF1E /* JHCubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0888610B1DD442740040AF1E /* JHCubeView.m */; };
+		088AE7471DDAA49E00281515 /* JHAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 088AE7461DDAA49E00281515 /* JHAlertView.m */; };
+		088AE74A1DDAAF5F00281515 /* JHBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 088AE7491DDAAF5F00281515 /* JHBaseView.m */; };
+		08A409EC1DD1927D005461E0 /* JHGearView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A409EB1DD1927D005461E0 /* JHGearView.m */; };
+		10195CC21DD6EAB800CC08AA /* JHBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10195CC11DD6EAB800CC08AA /* JHBallView.m */; };
+		103C22921DD2081C00A45232 /* JHDoubleGearView.m in Sources */ = {isa = PBXBuildFile; fileRef = 103C22911DD2081C00A45232 /* JHDoubleGearView.m */; };
+		103C22951DD217B700A45232 /* JHTaiChiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 103C22941DD217B700A45232 /* JHTaiChiView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		087170DB1DD040CC0045F4FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 087170B91DD040CB0045F4FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 087170C01DD040CB0045F4FE;
+			remoteInfo = JHLoadingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0829C88B1DD55CE1008A181A /* JHBambooDragonflyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBambooDragonflyView.h; sourceTree = "<group>"; };
+		0829C88C1DD55CE1008A181A /* JHBambooDragonflyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBambooDragonflyView.m; sourceTree = "<group>"; };
+		0858D1D71DE523FD008042AA /* JHCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCircleView.h; sourceTree = "<group>"; };
+		0858D1D81DE523FD008042AA /* JHCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCircleView.m; sourceTree = "<group>"; };
+		086449211DE42A5E00427E0E /* JHHourglassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHourglassView.h; sourceTree = "<group>"; };
+		086449221DE42A5E00427E0E /* JHHourglassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHourglassView.m; sourceTree = "<group>"; };
+		087170C11DD040CB0045F4FE /* JHLoadingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHLoadingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		087170C51DD040CB0045F4FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		087170C71DD040CB0045F4FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		087170C81DD040CB0045F4FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		087170CA1DD040CB0045F4FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		087170CB1DD040CB0045F4FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		087170CE1DD040CB0045F4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		087170D01DD040CC0045F4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		087170D31DD040CC0045F4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		087170D51DD040CC0045F4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087170DA1DD040CC0045F4FE /* JHLoadingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHLoadingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		087170DE1DD040CC0045F4FE /* JHLoadingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHLoadingViewTests.m; sourceTree = "<group>"; };
+		087170E01DD040CC0045F4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087170F01DD0415A0045F4FE /* JHWatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWatchView.h; sourceTree = "<group>"; };
+		087170F11DD0415A0045F4FE /* JHWatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWatchView.m; sourceTree = "<group>"; };
+		087170FD1DD090D10045F4FE /* UIView+JHCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JHCategory.h"; sourceTree = "<group>"; };
+		087170FE1DD090D10045F4FE /* UIView+JHCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHCategory.m"; sourceTree = "<group>"; };
+		088861071DD4301D0040AF1E /* JHDoubleCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDoubleCircleView.h; sourceTree = "<group>"; };
+		088861081DD4301D0040AF1E /* JHDoubleCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDoubleCircleView.m; sourceTree = "<group>"; };
+		0888610A1DD442740040AF1E /* JHCubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCubeView.h; sourceTree = "<group>"; };
+		0888610B1DD442740040AF1E /* JHCubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCubeView.m; sourceTree = "<group>"; };
+		088AE7451DDAA49E00281515 /* JHAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAlertView.h; sourceTree = "<group>"; };
+		088AE7461DDAA49E00281515 /* JHAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAlertView.m; sourceTree = "<group>"; };
+		088AE7481DDAAF5F00281515 /* JHBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBaseView.h; sourceTree = "<group>"; };
+		088AE7491DDAAF5F00281515 /* JHBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseView.m; sourceTree = "<group>"; };
+		08A409EA1DD1927D005461E0 /* JHGearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHGearView.h; sourceTree = "<group>"; };
+		08A409EB1DD1927D005461E0 /* JHGearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHGearView.m; sourceTree = "<group>"; };
+		10195CC01DD6EAB800CC08AA /* JHBallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBallView.h; sourceTree = "<group>"; };
+		10195CC11DD6EAB800CC08AA /* JHBallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBallView.m; sourceTree = "<group>"; };
+		103C22901DD2081C00A45232 /* JHDoubleGearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDoubleGearView.h; sourceTree = "<group>"; };
+		103C22911DD2081C00A45232 /* JHDoubleGearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDoubleGearView.m; sourceTree = "<group>"; };
+		103C22931DD217B700A45232 /* JHTaiChiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTaiChiView.h; sourceTree = "<group>"; };
+		103C22941DD217B700A45232 /* JHTaiChiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTaiChiView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		087170BE1DD040CB0045F4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087170D71DD040CC0045F4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		087170B81DD040CB0045F4FE = {
+			isa = PBXGroup;
+			children = (
+				087170C31DD040CB0045F4FE /* JHLoadingView */,
+				087170DD1DD040CC0045F4FE /* JHLoadingViewTests */,
+				087170C21DD040CB0045F4FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		087170C21DD040CB0045F4FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				087170C11DD040CB0045F4FE /* JHLoadingView.app */,
+				087170DA1DD040CC0045F4FE /* JHLoadingViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		087170C31DD040CB0045F4FE /* JHLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				087170FC1DD090D10045F4FE /* JHKit */,
+				087170E91DD0415A0045F4FE /* WatchView */,
+				087170C71DD040CB0045F4FE /* AppDelegate.h */,
+				087170C81DD040CB0045F4FE /* AppDelegate.m */,
+				087170CA1DD040CB0045F4FE /* ViewController.h */,
+				087170CB1DD040CB0045F4FE /* ViewController.m */,
+				087170CD1DD040CB0045F4FE /* Main.storyboard */,
+				087170D01DD040CC0045F4FE /* Assets.xcassets */,
+				087170D21DD040CC0045F4FE /* LaunchScreen.storyboard */,
+				087170D51DD040CC0045F4FE /* Info.plist */,
+				087170C41DD040CB0045F4FE /* Supporting Files */,
+			);
+			path = JHLoadingView;
+			sourceTree = "<group>";
+		};
+		087170C41DD040CB0045F4FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				087170C51DD040CB0045F4FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		087170DD1DD040CC0045F4FE /* JHLoadingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				087170DE1DD040CC0045F4FE /* JHLoadingViewTests.m */,
+				087170E01DD040CC0045F4FE /* Info.plist */,
+			);
+			path = JHLoadingViewTests;
+			sourceTree = "<group>";
+		};
+		087170E91DD0415A0045F4FE /* WatchView */ = {
+			isa = PBXGroup;
+			children = (
+				088AE7481DDAAF5F00281515 /* JHBaseView.h */,
+				088AE7491DDAAF5F00281515 /* JHBaseView.m */,
+				087170F01DD0415A0045F4FE /* JHWatchView.h */,
+				087170F11DD0415A0045F4FE /* JHWatchView.m */,
+				08A409EA1DD1927D005461E0 /* JHGearView.h */,
+				08A409EB1DD1927D005461E0 /* JHGearView.m */,
+				103C22901DD2081C00A45232 /* JHDoubleGearView.h */,
+				103C22911DD2081C00A45232 /* JHDoubleGearView.m */,
+				103C22931DD217B700A45232 /* JHTaiChiView.h */,
+				103C22941DD217B700A45232 /* JHTaiChiView.m */,
+				088861071DD4301D0040AF1E /* JHDoubleCircleView.h */,
+				088861081DD4301D0040AF1E /* JHDoubleCircleView.m */,
+				0888610A1DD442740040AF1E /* JHCubeView.h */,
+				0888610B1DD442740040AF1E /* JHCubeView.m */,
+				0829C88B1DD55CE1008A181A /* JHBambooDragonflyView.h */,
+				0829C88C1DD55CE1008A181A /* JHBambooDragonflyView.m */,
+				10195CC01DD6EAB800CC08AA /* JHBallView.h */,
+				10195CC11DD6EAB800CC08AA /* JHBallView.m */,
+				086449211DE42A5E00427E0E /* JHHourglassView.h */,
+				086449221DE42A5E00427E0E /* JHHourglassView.m */,
+				0858D1D71DE523FD008042AA /* JHCircleView.h */,
+				0858D1D81DE523FD008042AA /* JHCircleView.m */,
+				088AE7451DDAA49E00281515 /* JHAlertView.h */,
+				088AE7461DDAA49E00281515 /* JHAlertView.m */,
+			);
+			path = WatchView;
+			sourceTree = "<group>";
+		};
+		087170FC1DD090D10045F4FE /* JHKit */ = {
+			isa = PBXGroup;
+			children = (
+				087170FD1DD090D10045F4FE /* UIView+JHCategory.h */,
+				087170FE1DD090D10045F4FE /* UIView+JHCategory.m */,
+			);
+			path = JHKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		087170C01DD040CB0045F4FE /* JHLoadingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087170E31DD040CC0045F4FE /* Build configuration list for PBXNativeTarget "JHLoadingView" */;
+			buildPhases = (
+				087170BD1DD040CB0045F4FE /* Sources */,
+				087170BE1DD040CB0045F4FE /* Frameworks */,
+				087170BF1DD040CB0045F4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHLoadingView;
+			productName = JHLoadingView;
+			productReference = 087170C11DD040CB0045F4FE /* JHLoadingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		087170D91DD040CC0045F4FE /* JHLoadingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087170E61DD040CC0045F4FE /* Build configuration list for PBXNativeTarget "JHLoadingViewTests" */;
+			buildPhases = (
+				087170D61DD040CC0045F4FE /* Sources */,
+				087170D71DD040CC0045F4FE /* Frameworks */,
+				087170D81DD040CC0045F4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				087170DC1DD040CC0045F4FE /* PBXTargetDependency */,
+			);
+			name = JHLoadingViewTests;
+			productName = JHLoadingViewTests;
+			productReference = 087170DA1DD040CC0045F4FE /* JHLoadingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		087170B91DD040CB0045F4FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HaoCold;
+				TargetAttributes = {
+					087170C01DD040CB0045F4FE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4YWGN55BE7;
+					};
+					087170D91DD040CC0045F4FE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 087170C01DD040CB0045F4FE;
+					};
+				};
+			};
+			buildConfigurationList = 087170BC1DD040CB0045F4FE /* Build configuration list for PBXProject "JHLoadingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 087170B81DD040CB0045F4FE;
+			productRefGroup = 087170C21DD040CB0045F4FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				087170C01DD040CB0045F4FE /* JHLoadingView */,
+				087170D91DD040CC0045F4FE /* JHLoadingViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		087170BF1DD040CB0045F4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087170D41DD040CC0045F4FE /* LaunchScreen.storyboard in Resources */,
+				087170D11DD040CC0045F4FE /* Assets.xcassets in Resources */,
+				087170CF1DD040CB0045F4FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087170D81DD040CC0045F4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		087170BD1DD040CB0045F4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103C22951DD217B700A45232 /* JHTaiChiView.m in Sources */,
+				103C22921DD2081C00A45232 /* JHDoubleGearView.m in Sources */,
+				10195CC21DD6EAB800CC08AA /* JHBallView.m in Sources */,
+				087170CC1DD040CB0045F4FE /* ViewController.m in Sources */,
+				086449231DE42A5E00427E0E /* JHHourglassView.m in Sources */,
+				088861091DD4301D0040AF1E /* JHDoubleCircleView.m in Sources */,
+				0888610C1DD442740040AF1E /* JHCubeView.m in Sources */,
+				088AE74A1DDAAF5F00281515 /* JHBaseView.m in Sources */,
+				087170FF1DD090D10045F4FE /* UIView+JHCategory.m in Sources */,
+				087170F51DD0415A0045F4FE /* JHWatchView.m in Sources */,
+				0858D1D91DE523FD008042AA /* JHCircleView.m in Sources */,
+				087170C91DD040CB0045F4FE /* AppDelegate.m in Sources */,
+				08A409EC1DD1927D005461E0 /* JHGearView.m in Sources */,
+				0829C88D1DD55CE1008A181A /* JHBambooDragonflyView.m in Sources */,
+				088AE7471DDAA49E00281515 /* JHAlertView.m in Sources */,
+				087170C61DD040CB0045F4FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087170D61DD040CC0045F4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087170DF1DD040CC0045F4FE /* JHLoadingViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		087170DC1DD040CC0045F4FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 087170C01DD040CB0045F4FE /* JHLoadingView */;
+			targetProxy = 087170DB1DD040CC0045F4FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		087170CD1DD040CB0045F4FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087170CE1DD040CB0045F4FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		087170D21DD040CC0045F4FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087170D31DD040CC0045F4FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		087170E11DD040CC0045F4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		087170E21DD040CC0045F4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		087170E41DD040CC0045F4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JHLoadingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HaoCold.JHLoadingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		087170E51DD040CC0045F4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JHLoadingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HaoCold.JHLoadingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		087170E71DD040CC0045F4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JHLoadingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HaoCold.JHLoadingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHLoadingView.app/JHLoadingView";
+			};
+			name = Debug;
+		};
+		087170E81DD040CC0045F4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JHLoadingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HaoCold.JHLoadingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHLoadingView.app/JHLoadingView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		087170BC1DD040CB0045F4FE /* Build configuration list for PBXProject "JHLoadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087170E11DD040CC0045F4FE /* Debug */,
+				087170E21DD040CC0045F4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		087170E31DD040CC0045F4FE /* Build configuration list for PBXNativeTarget "JHLoadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087170E41DD040CC0045F4FE /* Debug */,
+				087170E51DD040CC0045F4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		087170E61DD040CC0045F4FE /* Build configuration list for PBXNativeTarget "JHLoadingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087170E71DD040CC0045F4FE /* Debug */,
+				087170E81DD040CC0045F4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 087170B91DD040CB0045F4FE /* Project object */;
+}
