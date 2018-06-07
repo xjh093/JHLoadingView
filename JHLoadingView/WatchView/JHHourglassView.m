@@ -115,7 +115,7 @@
         } completion:^(BOOL finished) {
             self.transform = CGAffineTransformIdentity;
             CGRect frame1 = _upMaskView.frame;
-            frame1.size.height =0;
+            frame1.size.height = 0;
             _upMaskView.frame = frame1;
     
             CGRect frame2 = _sandView.frame;

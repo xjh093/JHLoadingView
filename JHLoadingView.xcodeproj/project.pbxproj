@@ -241,7 +241,8 @@
 				TargetAttributes = {
 					087170C01DD040CB0045F4FE = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 4YWGN55BE7;
+						DevelopmentTeam = D8MERC5W3E;
+						ProvisioningStyle = Manual;
 					};
 					087170D91DD040CC0045F4FE = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -440,12 +441,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = D8MERC5W3E;
 				INFOPLIST_FILE = JHLoadingView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.HaoCold.JHLoadingView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHLoadingView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "c30aaefd-682c-4565-aaf0-50fc4fc13174";
+				PROVISIONING_PROFILE_SPECIFIER = haocold_dev;
 			};
 			name = Debug;
 		};
@@ -455,12 +458,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = D8MERC5W3E;
 				INFOPLIST_FILE = JHLoadingView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.HaoCold.JHLoadingView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHLoadingView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "c30aaefd-682c-4565-aaf0-50fc4fc13174";
+				PROVISIONING_PROFILE_SPECIFIER = haocold_dev;
 			};
 			name = Release;
 		};

@@ -8,7 +8,21 @@
 
 #import "JHGearView.h"
 
+@interface JHTwoGearView()
+@property (strong,  nonatomic) JHGearView   *gearView1;
+@property (strong,  nonatomic) JHGearView   *gearView2;
+@property (strong,  nonatomic) NSTimer      *timer;
+@property (assign,  nonatomic) double        angle;
+@end
+
 @implementation JHTwoGearView
+
+- (void)willMoveToSuperview:(UIView *)newSuperview{
+    if (!newSuperview) {
+        [_timer invalidate];
+        _timer = nil;
+    }
+}
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -25,20 +39,49 @@
     JHGearView *gview2 = [[JHGearView alloc] initWithFrame:CGRectMake(15,15,25,25) tW:3];
     [self addSubview:gview1];
     [self addSubview:gview2];
+    _gearView1 = gview1;
+    _gearView2 = gview2;
     
-    [gview2.layer removeAnimationForKey:@"jhrotate"];
-    CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
-    animation.keyPath = @"transform.rotation";
-    animation.values = @[@(M_PI/180*360),@(0)];
-    animation.repeatCount = MAXFLOAT;
-    animation.duration = 3;
-    [gview2.layer addAnimation:animation forKey:@"jhrotate"];
+    // 不使用 内部的定时器
+    [gview2 setValue:@(YES) forKey:@"stopTimer"];
+    
+    [self jhAnimate];
+    [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
+}
+
+- (void)jhAnimate
+{
+    _angle = _angle + 0.1;
+    if (_angle > 6.28) { // PI 3.14
+        _angle = 0;
+    }
+    _gearView2.transform = CGAffineTransformMakeRotation(-_angle);
+}
+
+- (NSTimer *)timer{
+    if (!_timer) {
+        _timer = [NSTimer scheduledTimerWithTimeInterval:0.03 target:self selector:@selector(jhAnimate) userInfo:nil repeats:YES];
+    }
+    return _timer;
 }
 
 @end
 
+@interface JHGearView()
+@property (strong,  nonatomic) NSTimer      *timer;
+@property (assign,  nonatomic) BOOL          stopTimer;
+@property (assign,  nonatomic) double        angle;
+@end
+
 CGFloat _tW = 5;
 @implementation JHGearView
+
+- (void)willMoveToSuperview:(UIView *)newSuperview{
+    if (!newSuperview) {
+        [_timer invalidate];
+        _timer = nil;
+    }
+}
 
 - (instancetype)initWithFrame:(CGRect)frame tW:(CGFloat)tW
 {
@@ -106,12 +149,31 @@ CGFloat _tW = 5;
     view2.backgroundColor = [UIColor whiteColor];
     [view addSubview:view2];
     
-    CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
-    animation.keyPath = @"transform.rotation";
-    animation.values = @[@(0),@(M_PI/180*360)];
-    animation.repeatCount = MAXFLOAT;
-    animation.duration = 3;
-    [self.layer addAnimation:animation forKey:@"jhrotate"];
+    [self jhAnimate];
+    [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
+}
+
+- (void)jhAnimate
+{
+    _angle = _angle + 0.1;
+    if (_angle > 6.28) { // PI 3.14
+        _angle = 0;
+    }
+    self.transform = CGAffineTransformMakeRotation(_angle);
+}
+
+- (NSTimer *)timer{
+    if (!_timer) {
+        _timer = [NSTimer scheduledTimerWithTimeInterval:0.03 target:self selector:@selector(jhAnimate) userInfo:nil repeats:YES];
+    }
+    return _timer;
+}
+
+- (void)setStopTimer:(BOOL)stopTimer{
+    if (stopTimer) {
+        [_timer invalidate];
+        _timer = nil;
+    }
 }
 
 @end

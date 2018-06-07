@@ -8,7 +8,19 @@
 
 #import "JHTaiChiView.h"
 
+@interface JHTaiChiView()
+@property (strong,  nonatomic) NSTimer      *timer;
+@property (assign,  nonatomic) double        angle;
+@end
+
 @implementation JHTaiChiView
+
+- (void)willMoveToSuperview:(UIView *)newSuperview{
+    if (!newSuperview) {
+        [_timer invalidate];
+        _timer = nil;
+    }
+}
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -36,12 +48,24 @@
     [self addSubview:leftView];
     [self addSubview:rightView];
     
-    CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
-    animation.keyPath = @"transform.rotation";
-    animation.values = @[@(0),@(M_PI/180*360)];
-    animation.repeatCount = MAXFLOAT;
-    animation.duration = 1;
-    [self.layer addAnimation:animation forKey:@"jhrotate"];
+    [self jhAnimate];
+    [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
+}
+
+- (void)jhAnimate
+{
+    _angle = _angle + 0.1;
+    if (_angle > 6.28) { // PI 3.14
+        _angle = 0;
+    }
+    self.transform = CGAffineTransformMakeRotation(_angle);
+}
+
+- (NSTimer *)timer{
+    if (!_timer) {
+        _timer = [NSTimer scheduledTimerWithTimeInterval:0.015 target:self selector:@selector(jhAnimate) userInfo:nil repeats:YES];
+    }
+    return _timer;
 }
 
 @end

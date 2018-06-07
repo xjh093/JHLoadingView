@@ -1457,6 +1457,7 @@ JH_addToView_m(UIScrollView)
         for (UIView *view in self.subviews) {
             if ([view isKindOfClass:[JHBaseView class]]) {
                 [(JHBaseView *)view jh_remove_timer];
+                NSLog(@"%s",__FUNCTION__);
             }
         }
     }
